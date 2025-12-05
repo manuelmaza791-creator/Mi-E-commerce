@@ -3,7 +3,7 @@
     padding: 0; 
     margin: 0;
 }
-body {font-family: System-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111827; background: #f5f7fb ;}
+body {font-family: "roboto bold", -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111827; background: #f5f7fb ;}
 
 .pagina {
     display: grid;
@@ -18,7 +18,7 @@ body {font-family: System-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif
 
 .navbar {
     grid-area: navbar;
-    background-color: rgba(0, 255, 255, 0.578);
+    background-color: rgba(204, 252, 252, 0.578);
     display: flex;
     justify-content: center;
     font-size: 15px;
@@ -71,6 +71,7 @@ body {font-family: System-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif
     align-items: center;
     background: rgba(0, 255, 255, 0.296);
     color: antiquewhite;
+    margin: 10px;
 }
 .tarjeta img {
     width: 100%;
@@ -79,6 +80,7 @@ body {font-family: System-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif
     max-height: 450px;
     margin: 10px 5px 0 5px;
     padding: 0 15px 0 15px;
+    border-radius: 50px;
 }
 .tarjeta h3 {
     color: #4d3c75;
@@ -99,10 +101,11 @@ body {font-family: System-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif
     padding: 10px;
     color: #4d3c75;
     margin-top: auto;
+    font-size: 1rem;
 }
 .btn-buy:hover {
-    background: rgba(255, 255, 0, 0.667)
-    ;
+    background: rgba(255, 255, 0, 0.667);
+    color: #1fb51277;
 }
 .footer {
     grid-area: footer;
